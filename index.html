@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>index.html</title>
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Abel|Open+Sans+Condensed:300|PT+Sans+Narrow" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="wrapper clearfix">
+ <div class="machine">
+  <div class="box"> 
+    <div class="window">
+      <div class="square">
+        <div class="option">
+          <img src="img/cola-can.svg" alt=""/>        </div> 
+        <!-- end .option -->
+      <div class="identifier">
+        <p>1</p>
+        <p>$1.00</p>
+      </div>
+    </div> <!-- end .square -->
+    <div class="square">
+      <div class="option">
+        <img src="img/chips-bag.svg" alt=""/>
+      </div> <!-- end .option -->
+      <div class="identifier">
+        <p>2</p>
+        <p>$0.50</p>
+      </div>
+    </div> <!-- end .square -->
+    <div class="square">
+      <div class="option">
+       <img src="img/toffee.svg" alt=""/>
+    </div> <!-- end .option -->
+    <div class="identifier">
+        <p>3</p>
+        <p>$0.65</p>
+      </div>
+    </div> <!-- end. square -->
+  </div> <!-- end .window -->
+    
+  <div class="calculator">
+    <div class="screen">
+      <p>Insert Coins</p>
+      <p>$0.00</p>
+    </div>
+    <div class="choices">
+      <button class="selection" value="cola">1</button>
+      <button class="selection" value="chips">2</button>
+      <button class="selection" value="candy">3</button>
+    </div>
+    <div class="return_box">
+      <button class="return_button">
+      </button>
+      <p>Return change</p>
+    </div>
+    <div class="coin_return">
+      <p>Coin Return</p>
+    </div>
+  </div>
+  <div class="collect">
+  </div>
+</div> <!-- end .calculator-->
+  <div class="legs clearfix">
+    <div class="leg-left">
+    </div>
+    <div class="leg-right">
+    </div>
+  </div> <!-- end .legs -->
+</div> <!-- end .machine -->
+    
+  <div class="coin_selection">
+    <div class="instructions">
+      <h3>The Virtual Vending Machine</h3>
+      <p>Instructions:</p>
+      <p>1. Click buttons below to insert coins into the machine. Machine will make change by default.</p>
+      <p>2. To select an item, click a numbered button corresponding to desired item.</p>
+      <p>3. To request money back, click red "Return change" button.</p>
+      <p>4. To remove change, click "Collect Change" area.</p>
+      <p>5. To collect item, click area when instructed</p>
+      <p>6. To tell the machine to accept exact change only, select "Exact change" button</p>
+      <p>7. To allow machine to make change, click "Change ok" button</p>
+    </div> <!-- end. instructions -->
+    <div class="exact">
+      <button class="exact_only">Exact change</button>
+      <button class="change_ok">Change ok</button>
+    </div> <!-- end .exact -->
+    <button class="add_coin" id="penny" value="2.5">Insert penny</button>
+    <button class="add_coin" id="nickel" value="5.0">Insert nickel</button>
+    <button class="add_coin" id="dime" value="2.27">Insert dime</button>
+    <button class="add_coin" id="quarter" value="5.8">Insert quarter</button>
+  </div> <!-- end .coin_selection -->
+</div> <!-- end .wrapper -->
+
+<div class="attribution">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from   <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+</div>
+
+</body>
+
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</html>

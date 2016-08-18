@@ -1,0 +1,283 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/********************
+General Styling
+********************/
+
+html {
+  box-sizing: border-box;
+  font-family: 'Abel', sans-serif;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+
+.machine {
+  width: 320px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+.box {
+  width: 80%;
+  height: 450px;
+  background: #cccccc;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding-top: 3em;
+}
+
+.legs {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.leg-left, .leg-right {
+  background: #999999;
+  height: 3em;
+  width: 1em;
+  display: inline-block;
+}
+
+.leg-right {
+  float: right;
+  margin-right: 1em;
+}
+
+.leg-left {
+  float: left;
+  margin-left: 1em;
+}
+
+.attribution {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 2em;
+}
+
+/********************
+Food Contents Styling
+********************/
+
+.window {
+  width: 50%;
+  height: 350px;
+  background: #999999;
+  margin-left: 10%;
+  display: inline-block;
+  float: left;
+}
+
+.square {
+  margin: 0 auto;
+  margin-top: 9px;
+  background: #cccccc;
+  height: 105px;
+  width: 90%;
+}
+
+.option {
+  background: black;
+  width: 60px;
+  height: 80px;
+  margin-top: 12.5px;
+  float: left;
+}
+
+img {
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+.identifier {
+  background: black;
+  width: 50px;
+  height: 80px;
+  margin-top: 12.5px;
+  margin-left: 2px;
+  float: left;
+  border-radius: 40%;
+}
+
+.identifier p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/********************
+Screen/Buttons Styling
+********************/
+
+.calculator {
+  background: #999999;
+  width: 25%;
+  height: 350px;
+  display: inline-block;
+  margin-left: 4%;
+  float: left;
+  
+}
+
+.screen {
+  background: black;
+  width: 90%;
+  height: 100px;
+  margin: 5%;
+}
+
+.screen p {
+  color: #FFF;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.change_message {
+  padding-top: 0;
+  margin-top: -15px;
+  font-size: 14px;
+}
+
+.selection {
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 3px;
+  border-radius: 50%;
+}
+
+.coin_return {
+  background: black;
+  width: 80%;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #FFF;
+}
+
+.coin_return p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.currentNum {
+  color: white;
+}
+
+.return_button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: red;
+  padding: 7px;
+}
+
+.return_box p {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+
+/********************
+Item Collection Styling
+********************/
+.collect {
+  background: #999999;
+  width: 80%;
+  height: 50px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-left: 10%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.collect h1 {
+  display: inline-block;
+  font-size: 20px
+}
+
+.cc {
+  color: red;
+}
+
+.collect h3 {
+  color: red;
+  font-size: 14px;
+}
+
+/********************
+Instructions/Coin Button Styling
+********************/
+.coin_selection {
+  display: block;
+  width: 80%;
+  padding: 0 1em;
+  margin: 0 auto;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.instructions {
+  margin-bottom: 1em;
+}
+
+.exact_only, .change_ok {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 7px;
+}
+
+.add_coin {
+  margin: 0 auto;
+  margin-top: 0.5em;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: inline-block;
+  
+}
+
+.attribution {
+	text-align: center;
+}
+
+/***********************
+Media Queries
+***********************/
+@media(min-width: 769px) {
+  
+  .wrapper {
+    width: 700px;
+    margin: 0 auto;
+  }
+  
+  .machine {
+    float: left;
+  }
+  
+  .coin_selection {
+    margin-top: 1em;
+    width: 330px;
+    float: left;
+  }
+  
+  
+}
+
